@@ -1,0 +1,23 @@
+.tip {
+    background-color: #f8f5fa;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+}
+
+.rules, .mistakes {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 4px solid #6d5b86;
+}
+
+.mistakes li {
+    color: #cc3333;
+    list-style-type: none;
+    padding-left: 1.5rem;
+}
+
+.rules li {
+    list-style-type: "✓";
+    padding-left: 1rem;
+}
